@@ -6,6 +6,11 @@ import Redes from "./pages/Redes";
 import Tecnologia from "./pages/Tecnologia";
 
 function App() {
+
+  
+
+
+
   return (
     <div>
       <BrowserRouter>
@@ -17,8 +22,14 @@ function App() {
           <Route path="/Tecnologia" element={<Tecnologia/>}/>
         </Routes>
       </BrowserRouter>
-      <h1>Testando</h1>
+
+
+
+
+      
+
     </div>
+
   );
 }
 

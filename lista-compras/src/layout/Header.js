@@ -1,6 +1,9 @@
 import styles from "./Header.module.css";
 import sacola from './sacola.png';
 
+
+
+
 function Header() {
     return (
         <header className={styles.header}>
@@ -16,7 +19,7 @@ function Header() {
             <nav className={styles.nav}>
                 <ul>
                     <li>
-                        <a href="/">Lista</a>
+                        <a href="/">Inicio</a>
                     </li>
                     <li>
                         <a href="/Produtos">Produtos</a>

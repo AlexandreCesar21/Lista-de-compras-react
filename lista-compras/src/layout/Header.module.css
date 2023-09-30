@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Ubuntu:wght@400;500;700&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
@@ -5,18 +8,25 @@
 }
 
 header {
-    background: rgba(0, 0, 0, 0.402);
+    background-color: #45C4B0;
+    margin-right: -30px;
 }
 
 
 .img {
     height: 50px;
     width: 50px;
+    margin-bottom: -3px;
 }
 
 .lista {
     margin-left: 60px;
     margin-top: -40px;
+}
+
+.lista h1 {
+    font-family: 'Bree Serif', serif;
+
 }
 
 
@@ -41,7 +51,25 @@ nav a {
     color: white;
 }
 
-/* Example: Style the links when hovered */
-nav a:hover {
-    text-decoration: underline;
-}
+a {
+    text-decoration: none; /* Remova a decoração de texto padrão */
+    color: white; /* Cor do link */
+    position: relative; /* Adicione position: relative para o link */
+  }
+
+
+
+ a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px; /* Espessura da linha de baixo */
+    bottom: 0;
+    left: 0;
+    background-color: white; /* Cor da linha de baixo */
+    transition: width 0.3s ease; /* Velocidade do efeito de transição */
+  }
+
+ a:hover::before {
+    width: 100%;
+  }
