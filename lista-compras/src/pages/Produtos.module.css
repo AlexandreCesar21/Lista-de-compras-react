@@ -87,9 +87,29 @@
 
 
   
+  .carrinho {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
 
+   .lista li {
+    
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    font-weight: bold;
+    border-bottom: 3px solid #08000a;
+    color: black;
+    list-style: none;
+    text-align: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 
-
+}
 
 
 

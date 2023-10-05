@@ -1,0 +1,10 @@
+.seguencia {
+    display: flex;
+    justify-content: flex-start; 
+    gap: 20px; 
+    text-align: center;
+    padding: 160px;
+    margin-left: 110px;
+    width: 300px;
+    gap: 50px;
+}
